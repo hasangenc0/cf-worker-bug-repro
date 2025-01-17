@@ -1,7 +1,7 @@
 export default {
 	async fetch(request) {
 		// someHost is set up to return JSON responses
-		const someHost = 'https://jsonplaceholder.typicode.coms';
+		const someHost = 'https://jsonplaceholder.typicode.com';
 		const url1 = someHost + '/todos/1';
 		const url2 = someHost + '/todos/2';
 
